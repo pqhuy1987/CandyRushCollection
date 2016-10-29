@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7B3E908F1952C5C80045F090"
-               BuildableName = "CookieCrunch.app"
-               BlueprintName = "CookieCrunch"
-               ReferencedContainer = "container:CookieCrunch.xcodeproj">
+               BuildableName = "CookieCrush.app"
+               BlueprintName = "CookieCrush"
+               ReferencedContainer = "container:CookieCrush.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7B3E90A51952C5C90045F090"
-               BuildableName = "CookieCrunchTests.xctest"
-               BlueprintName = "CookieCrunchTests"
-               ReferencedContainer = "container:CookieCrunch.xcodeproj">
+               BuildableName = "CookieCrush.xctest"
+               BlueprintName = "CookieCrushTests"
+               ReferencedContainer = "container:CookieCrush.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7B3E908F1952C5C80045F090"
-            BuildableName = "CookieCrunch.app"
-            BlueprintName = "CookieCrunch"
-            ReferencedContainer = "container:CookieCrunch.xcodeproj">
+            BuildableName = "CookieCrush.app"
+            BlueprintName = "CookieCrush"
+            ReferencedContainer = "container:CookieCrush.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7B3E908F1952C5C80045F090"
-            BuildableName = "CookieCrunch.app"
-            BlueprintName = "CookieCrunch"
-            ReferencedContainer = "container:CookieCrunch.xcodeproj">
+            BuildableName = "CookieCrush.app"
+            BlueprintName = "CookieCrush"
+            ReferencedContainer = "container:CookieCrush.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7B3E908F1952C5C80045F090"
-            BuildableName = "CookieCrunch.app"
-            BlueprintName = "CookieCrunch"
-            ReferencedContainer = "container:CookieCrunch.xcodeproj">
+            BuildableName = "CookieCrush.app"
+            BlueprintName = "CookieCrush"
+            ReferencedContainer = "container:CookieCrush.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
