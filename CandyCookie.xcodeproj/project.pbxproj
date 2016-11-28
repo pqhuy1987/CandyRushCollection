@@ -49,14 +49,14 @@
 		35736CDF1991307600D1F1C9 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 		35736D16199132F300D1F1C9 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		35736D1819913B8600D1F1C9 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
-		7B3E90901952C5C80045F090 /* CookieCrush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCrush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3E90901952C5C80045F090 /* CandyCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3E90941952C5C80045F090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3E90951952C5C80045F090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B3E90991952C5C80045F090 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		7B3E909B1952C5C80045F090 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		7B3E909E1952C5C80045F090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B3E90A01952C5C80045F090 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7B3E90A61952C5C90045F090 /* CookieCrush.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCrush.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3E90A61952C5C90045F090 /* CandyCookie.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CandyCookie.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3E90AB1952C5C90045F090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3E90AC1952C5C90045F090 /* CookieCrunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunchTests.swift; sourceTree = "<group>"; };
 		7B3E90B81952CA710045F090 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 		7B3E90911952C5C80045F090 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B3E90901952C5C80045F090 /* CookieCrush.app */,
-				7B3E90A61952C5C90045F090 /* CookieCrush.xctest */,
+				7B3E90901952C5C80045F090 /* CandyCookie.app */,
+				7B3E90A61952C5C90045F090 /* CandyCookie.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B3E908F1952C5C80045F090 /* CookieCrush */ = {
+		7B3E908F1952C5C80045F090 /* CandyCookie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B3E90B01952C5C90045F090 /* Build configuration list for PBXNativeTarget "CookieCrush" */;
+			buildConfigurationList = 7B3E90B01952C5C90045F090 /* Build configuration list for PBXNativeTarget "CandyCookie" */;
 			buildPhases = (
 				7B3E908C1952C5C80045F090 /* Sources */,
 				7B3E908D1952C5C80045F090 /* Frameworks */,
@@ -203,14 +203,14 @@
 			);
 			dependencies = (
 			);
-			name = CookieCrush;
+			name = CandyCookie;
 			productName = CookieCrunch;
-			productReference = 7B3E90901952C5C80045F090 /* CookieCrush.app */;
+			productReference = 7B3E90901952C5C80045F090 /* CandyCookie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7B3E90A51952C5C90045F090 /* CookieCrushTests */ = {
+		7B3E90A51952C5C90045F090 /* CandyCookieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B3E90B31952C5C90045F090 /* Build configuration list for PBXNativeTarget "CookieCrushTests" */;
+			buildConfigurationList = 7B3E90B31952C5C90045F090 /* Build configuration list for PBXNativeTarget "CandyCookieTests" */;
 			buildPhases = (
 				7B3E90A21952C5C90045F090 /* Sources */,
 				7B3E90A31952C5C90045F090 /* Frameworks */,
@@ -221,9 +221,9 @@
 			dependencies = (
 				7B3E90A81952C5C90045F090 /* PBXTargetDependency */,
 			);
-			name = CookieCrushTests;
+			name = CandyCookieTests;
 			productName = CookieCrunchTests;
-			productReference = 7B3E90A61952C5C90045F090 /* CookieCrush.xctest */;
+			productReference = 7B3E90A61952C5C90045F090 /* CandyCookie.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -247,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B3E908B1952C5C80045F090 /* Build configuration list for PBXProject "CookieCrush" */;
+			buildConfigurationList = 7B3E908B1952C5C80045F090 /* Build configuration list for PBXProject "CandyCookie" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -260,8 +260,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B3E908F1952C5C80045F090 /* CookieCrush */,
-				7B3E90A51952C5C90045F090 /* CookieCrushTests */,
+				7B3E908F1952C5C80045F090 /* CandyCookie */,
+				7B3E90A51952C5C90045F090 /* CandyCookieTests */,
 			);
 		};
 /* End PBXProject section */
@@ -329,7 +329,7 @@
 /* Begin PBXTargetDependency section */
 		7B3E90A81952C5C90045F090 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7B3E908F1952C5C80045F090 /* CookieCrush */;
+			target = 7B3E908F1952C5C80045F090 /* CandyCookie */;
 			targetProxy = 7B3E90A71952C5C90045F090 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,7 +434,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.cookiecrush.100;
-				PRODUCT_NAME = CookieCrush;
+				PRODUCT_NAME = CandyCookie;
 			};
 			name = Debug;
 		};
@@ -448,7 +448,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.cookiecrush.100;
-				PRODUCT_NAME = CookieCrush;
+				PRODUCT_NAME = CandyCookie;
 			};
 			name = Release;
 		};
@@ -468,7 +468,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = CookieCrush;
+				PRODUCT_NAME = CandyCookie;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -485,7 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = CookieCrush;
+				PRODUCT_NAME = CandyCookie;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -493,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B3E908B1952C5C80045F090 /* Build configuration list for PBXProject "CookieCrush" */ = {
+		7B3E908B1952C5C80045F090 /* Build configuration list for PBXProject "CandyCookie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B3E90AE1952C5C90045F090 /* Debug */,
@@ -502,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B3E90B01952C5C90045F090 /* Build configuration list for PBXNativeTarget "CookieCrush" */ = {
+		7B3E90B01952C5C90045F090 /* Build configuration list for PBXNativeTarget "CandyCookie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B3E90B11952C5C90045F090 /* Debug */,
@@ -511,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B3E90B31952C5C90045F090 /* Build configuration list for PBXNativeTarget "CookieCrushTests" */ = {
+		7B3E90B31952C5C90045F090 /* Build configuration list for PBXNativeTarget "CandyCookieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B3E90B41952C5C90045F090 /* Debug */,
