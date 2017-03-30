@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		35736CE01991307600D1F1C9 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35736CDF1991307600D1F1C9 /* Chain.swift */; };
-		35736D17199132F300D1F1C9 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 35736D16199132F300D1F1C9 /* Sprites.atlas */; };
 		35736D1919913B8600D1F1C9 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 35736D1819913B8600D1F1C9 /* Grid.atlas */; };
 		7B3E90961952C5C80045F090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E90951952C5C80045F090 /* AppDelegate.swift */; };
 		7B3E909A1952C5C80045F090 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E90991952C5C80045F090 /* GameScene.swift */; };
@@ -47,7 +46,6 @@
 
 /* Begin PBXFileReference section */
 		35736CDF1991307600D1F1C9 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
-		35736D16199132F300D1F1C9 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		35736D1819913B8600D1F1C9 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 		7B3E90901952C5C80045F090 /* CandyCookie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandyCookie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3E90941952C5C80045F090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 				7B3E90CF195311300045F090 /* Swap.swift */,
 				35736CDF1991307600D1F1C9 /* Chain.swift */,
 				35736D1819913B8600D1F1C9 /* Grid.atlas */,
-				35736D16199132F300D1F1C9 /* Sprites.atlas */,
 				7B3E909D1952C5C80045F090 /* Main.storyboard */,
 				7B3E90A01952C5C80045F090 /* Images.xcassets */,
 				7B3E90C01952FB390045F090 /* Levels */,
@@ -279,7 +276,6 @@
 				7B3E90DC1953276F0045F090 /* Mining by Moonlight.mp3 in Resources */,
 				7B3E90DD1953276F0045F090 /* Scrape.wav in Resources */,
 				7B3E90DA1953276F0045F090 /* Error.wav in Resources */,
-				35736D17199132F300D1F1C9 /* Sprites.atlas in Resources */,
 				7B3E90C71952FB390045F090 /* Level_1.json in Resources */,
 				7B3E909F1952C5C80045F090 /* Main.storyboard in Resources */,
 				7B3E90C61952FB390045F090 /* Level_0.json in Resources */,
