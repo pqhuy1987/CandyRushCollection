@@ -239,7 +239,7 @@
 				TargetAttributes = {
 					7B3E908F1952C5C80045F090 = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = JQNK74493B;
+						DevelopmentTeam = ZQP5857UJK;
 					};
 					7B3E90A51952C5C90045F090 = {
 						CreatedOnToolsVersion = 6.0;
@@ -429,12 +429,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = JQNK74493B;
 				INFOPLIST_FILE = CookieCrunch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.cookiecrush.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.cutecandy.100;
 				PRODUCT_NAME = CandyCookie;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -443,12 +446,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = JQNK74493B;
 				INFOPLIST_FILE = CookieCrunch/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.cookiecrush.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobile.cutecandy.100;
 				PRODUCT_NAME = CandyCookie;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
